@@ -12,7 +12,7 @@ import (
 
 var (
 	port = flag.String("port", "8080", "port to bind to")
-	path = flag.String("path", "/", "path to serve")
+	path = flag.String("path", "/videos", "path to serve")
 )
 
 func main() {
